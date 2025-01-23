@@ -1,5 +1,5 @@
 <template>
-    <section class="text-white mt-18" id="skills">
+    <section class="text-[#2C2C2C] mt-18" id="skills">
         <div class="absolute right-0 top-[110rem] w-full justify-end">
             <span class="flex opacity-20">
                 <span class="w-16 h-32 rounded-l-full flex bg-primary blur-2xl"></span>
@@ -9,34 +9,32 @@
         <div class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 xl:px-16">
 
             <div class="w-full mx-0 px-0 mt-4 md:mt-0 text-left flex flex-col z-10 h-full" data-aos="fade-left">
-                <h2 class="text-4xl font-bold text-white text-left mb-4">Tecnologías
-                    <span
-                        class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Destacadas</span>
+                <h2 class="text-4xl font-bold text-[#2C2C2C] text-left mb-4">Tecnologías
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r text-[#8A6FBF]">Destacadas</span>
                 </h2>
                 <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-4 py-8 items-stretch">
-                    <SkillCard :skills="Skills"/>
+                    <SkillCard :skills="Skills" />
                 </div>
             </div>
 
             <div data-aos="flip-left">
-                <h2 class="text-4xl font-bold text-white text-left mb-8 md:text-center md:mt-0 mt-8">Experiencia
-                    <span
-                        class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Laboral</span>
+                <h2 class="text-4xl font-bold text-[#2C2C2C] text-left mb-8 md:text-center md:mt-0 mt-8">Experiencia
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r text-[#8A6FBF]">Laboral</span>
                 </h2>
-                
+
                 <div class="space-y-8 py-8" data-aos="fade-left">
                     <div v-for="element in Experinces" :key="element.id"
-                        class="flex items-center rounded-xl p-4 bg-[#111a3e] shadow-lg border border-[#1f1641]">
+                        class="flex items-center rounded-xl p-4 bg-[#8A6FBF] shadow-lg border border-[#2C2C2C]">
                         <div class="w-1/4">
                             <img src="https://img.icons8.com/ios-filled/100/ffffff/lawyer.png" alt="lawyer">
                         </div>
                         <div class="w-3/4 pl-4">
                             <h3
-                                class="text-2xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+                                class="text-2xl font-bold uppercase text-transparent bg-clip-text bg-gradient-to-r text-[#2C2C2C]">
                                 {{ element.role }}
                             </h3>
-                            <p class="text-white">{{ element.company }}</p>
-                            <p class="text-white">{{ element.date }}</p>
+                            <p class="text-[#2C2C2C] font-semibold">{{ element.company }}</p>
+                            <p class="text-[#2C2C2C] font-semibold">{{ element.date }}</p>
                         </div>
                     </div>
                 </div>
