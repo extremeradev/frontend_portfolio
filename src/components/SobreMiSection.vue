@@ -15,7 +15,7 @@
                         </div>
                         <div class="w-3/4 pl-4">
                             <h3
-                                class="text-2xl font-bold uppercase text-transparent bg-clip-text bg-gradient-to-r text-[#2C2C2C] lg:text-xl">
+                                class="text-2xl font-bold uppercase bg-clip-text bg-gradient-to-r text-[#2C2C2C] lg:text-xl">
                                 {{ element.School }}
                             </h3>
                             <p class="text-[#2C2C2C] font-semibold">{{ element.program }}</p>
@@ -26,7 +26,7 @@
             </div>
             <div class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full" data-aos="flip-right">
                 <h2 class="text-4xl font-bold text-[#2C2C2C] md:text-center text-left mb-4">Sobre
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r text-[#8A6FBF]">mi</span>
+                    <span class="bg-clip-text bg-gradient-to-r text-[#8A6FBF]">mi</span>
 
                 </h2>
                 <p class="font-semibold text-base lg:text-lg mt-8 py-8">

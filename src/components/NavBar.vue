@@ -2,7 +2,7 @@
   <header class="flex justify-between items-center p-6 bg-opacity-50 relative z-20">
     <div class="text-[#2C2C2C] text-1xl font-bold">
       <h4
-        class="text-[16px] sm:text-[14px] md:text-[18px] lg:text-[24px] text-transparent bg-clip-text text-[#2C2C2C] font-bold">
+        class="text-[16px] sm:text-[14px] md:text-[18px] lg:text-[24px] bg-clip-text text-[#2c2c2c] font-bold">
         (+34) 722 64 81 73 · <br />
         extremera.dev@gmail.com
       </h4>

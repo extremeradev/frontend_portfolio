@@ -10,7 +10,7 @@
                 <div class="lg:py-6">
                     <div class="text-center lg:text-left">
                         <h1 class="pt-4 text-[#2C2C2C] font-bold text-4xl md:text-5xl lg:text-5xl">
-                            Hola, soy <span class="text-transparent bg-clip-text bg-gradient-to-r text-[#8A6FBF]">
+                            Hola, soy <span class=" bg-clip-text bg-gradient-to-r text-[#8A6FBF]">
                                 Alejandro
                             </span>
                         </h1>
