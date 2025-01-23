@@ -14,7 +14,7 @@
                 </div>
                 <div class="text-center">
                     <h3
-                        class="pt-8 text-lg font-bold uppercase text-transparent bg-clip-text bg-gradient-to-r text-[#2C2C2C] lg:text-xl">
+                        class="pt-8 text-lg font-bold uppercase bg-clip-text bg-gradient-to-r text-[#2C2C2C] lg:text-xl">
                         {{ service.name }}
                     </h3>
                     <p class="text-[#2C2C2C] font-semibold pt-4 text-sm group-hover:text-white md:text-base">

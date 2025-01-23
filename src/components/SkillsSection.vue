@@ -10,7 +10,7 @@
 
             <div class="w-full mx-0 px-0 mt-4 md:mt-0 text-left flex flex-col z-10 h-full" data-aos="fade-left">
                 <h2 class="text-4xl font-bold text-[#2C2C2C] text-left mb-4">Tecnologías
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r text-[#8A6FBF]">Destacadas</span>
+                    <span class="bg-clip-text bg-gradient-to-r text-[#8A6FBF]">Destacadas</span>
                 </h2>
                 <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-4 py-8 items-stretch">
                     <SkillCard :skills="Skills" />
@@ -19,7 +19,7 @@
 
             <div data-aos="flip-left">
                 <h2 class="text-4xl font-bold text-[#2C2C2C] text-left mb-8 md:text-center md:mt-0 mt-8">Experiencia
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r text-[#8A6FBF]">Laboral</span>
+                    <span class=" bg-clip-text bg-gradient-to-r text-[#8A6FBF]">Laboral</span>
                 </h2>
 
                 <div class="space-y-8 py-8" data-aos="fade-left">
@@ -30,7 +30,7 @@
                         </div>
                         <div class="w-3/4 pl-4">
                             <h3
-                                class="text-2xl font-bold uppercase text-transparent bg-clip-text bg-gradient-to-r text-[#2C2C2C]">
+                                class="text-2xl font-bold uppercase bg-clip-text bg-gradient-to-r text-[#2C2C2C]">
                                 {{ element.role }}
                             </h3>
                             <p class="text-[#2C2C2C] font-semibold">{{ element.company }}</p>
