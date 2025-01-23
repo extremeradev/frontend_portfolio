@@ -30,7 +30,7 @@
                             class="absolute z-0 top-1/2 -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-[#570cac] to-primary blur-2xl">
                         </div>
                         <div class="max-w-[200px] h-[200px] absolute z-10 p-1 -translate-y-1/2 top-1/2 left-1/2 -translate-x-1/2 
-                                    sm:max-w-[100px] sm:h-[100px] sm:translate-x-0 sm:left-auto sm:right-16 
+                                    sm:max-w-[400px] sm:h-[400px] sm:translate-x-0 sm:left-auto sm:right-16 
                                     md:right-40 lg:right-3 rounded-full shadow-lg border border-primary">
                             <img src="@/assets/profile.jpg" alt="Hero pic" width="500" height="auto" loading="lazy"
                                 class="w-full h-full rounded-full object-cover">
