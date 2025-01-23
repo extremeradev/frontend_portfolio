@@ -3,7 +3,7 @@
 
     <div class="card w-52 h-36 rounded-xl p-4 bg-[#8A6FBF] shadow-lg border border-[#2C2C2C]">
       <!-- Lado posterior (el reverso donde aparece el skill.name) -->
-      <div class="card-back w-full h-full flex items-center justify-center bg-[#8A6FBF] ">
+      <div class="card-back w-full h-full flex items-center justify-center bg-[#8A6FBF] rounded-xl">
         <h3 class="text-2xl font-semibold uppercase bg-clip-text bg-gradient-to-r text-[#2C2C2C] ">
           {{ skill.name }}
         </h3>
