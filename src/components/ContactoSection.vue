@@ -97,7 +97,7 @@ export default {
   },
   methods: {
     redirectToLinkedin() {
-      window.open("https://www.linkedin.com/in/alejandro-l-6a410b247/");
+      window.open("https://www.linkedin.com/in/alejandro-lopez-extremera/");
     },
     async sendEmail() {
       this.isLoading = true; // Activar el spinner
