@@ -82,6 +82,10 @@ import axios from "axios";
 import Swal from "sweetalert2";
 
 export default {
+  mounted() {
+    // Establece el scroll en la parte superior de la página cuando el componente se monta
+    window.scrollTo(0, 0);
+  },
   data() {
     return {
       email: {
@@ -110,7 +114,7 @@ export default {
         Swal.fire({
           icon: "success",
           title: "¡Correo enviado!",
-          text: `Tu mensaje fue enviado correctamente con el ID: ${response.data.messageId}`,
+          text: `Tu mensaje fue enviado correctamente`,
           confirmButtonColor: "#7F6A9D", // Personaliza el color del botón
         }).then( () => {
           window.location.reload();
@@ -121,12 +125,9 @@ export default {
         Swal.fire({
           icon: "error",
           title: "¡Error!",
-          text: "Hubo un problema al enviar el correo. Por favor, intenta nuevamente.",
+          text: "Hubo un problema al enviar el correo. Por favor, inténtalo nuevamente.",
           confirmButtonColor: "#FF6B6B", // Personaliza el color del botón
-        }).then( () => {
-          window.location.reload();
         });
-        
       } finally {
         this.isLoading = false; // Desactivar el spinner
       }
