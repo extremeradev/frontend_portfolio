@@ -16,7 +16,7 @@
                         </h1>
                     </div>
                     <p class="text-[#2C2C2C] font-semibold pt-8 text-center lg:text-left mx-auto max-w-xl">
-                        Me entusiasma la tecnología y programar para hacer que las ideas cobren vida a través del código,
+                        Me apasiona la tecnología y programar para hacer que las ideas cobren vida a través del código,
                         buscando siempre la forma más eficiente de hacerlo.
                     </p>
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
