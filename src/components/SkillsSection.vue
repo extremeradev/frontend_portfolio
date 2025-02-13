@@ -58,6 +58,11 @@ const Skills = ref([
         img: "https://img.icons8.com/?size=100&id=90519&format=png&color=000000"
     },
     {
+        id: 11,
+        name: 'React.js',
+        img: "https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000"
+    },
+    {
         id: 3,
         name: 'JavaScript',
         img: "https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000"
