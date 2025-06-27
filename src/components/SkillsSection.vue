@@ -59,8 +59,8 @@ const Skills = ref([
     },
     {
         id: 11,
-        name: 'React.js',
-        img: "https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000"
+        name: 'ANGULAR',
+        img: "https://img.icons8.com/?size=100&id=71257&format=png&color=000000"
     },
     {
         id: 3,
